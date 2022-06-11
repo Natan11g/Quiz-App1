@@ -13,6 +13,8 @@
 		7344B2D82854E9CB002AD72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7344B2D62854E9CB002AD72F /* Main.storyboard */; };
 		7344B2DA2854E9D3002AD72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7344B2D92854E9D3002AD72F /* Assets.xcassets */; };
 		7344B2DD2854E9D3002AD72F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7344B2DB2854E9D3002AD72F /* LaunchScreen.storyboard */; };
+		7344B2E52854EA6B002AD72F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7344B2E42854EA6B002AD72F /* Question.swift */; };
+		7344B2E72854EB87002AD72F /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7344B2E62854EB87002AD72F /* QuizModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7344B2D92854E9D3002AD72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7344B2DC2854E9D3002AD72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7344B2DE2854E9D3002AD72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7344B2E42854EA6B002AD72F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		7344B2E62854EB87002AD72F /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				7344B2D92854E9D3002AD72F /* Assets.xcassets */,
 				7344B2DB2854E9D3002AD72F /* LaunchScreen.storyboard */,
 				7344B2DE2854E9D3002AD72F /* Info.plist */,
+				7344B2E42854EA6B002AD72F /* Question.swift */,
+				7344B2E62854EB87002AD72F /* QuizModel.swift */,
 			);
 			path = "Quiz App";
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7344B2D52854E9CB002AD72F /* ViewController.swift in Sources */,
+				7344B2E52854EA6B002AD72F /* Question.swift in Sources */,
 				7344B2D12854E9CB002AD72F /* AppDelegate.swift in Sources */,
 				7344B2D32854E9CB002AD72F /* SceneDelegate.swift in Sources */,
+				7344B2E72854EB87002AD72F /* QuizModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
